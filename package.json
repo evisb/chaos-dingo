@@ -14,7 +14,7 @@
   },
   "scripts": {
     "prestart": "npm install",
-    "start": "node dingo.js"
+    "start": "node dingo.js -f dingo_test.json"
   },
   "engines": {
     "node": ">= 5.1"

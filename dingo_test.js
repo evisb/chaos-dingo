@@ -83,8 +83,7 @@ DingoTest.generateTest = function(args) {
         
         var testJson;
         try {
-            var testfile = fs.readFileSync(args.testfile);
-            testJson = JSON.parse(testfile);
+            testJson = JSON.parse(fs.readFileSync(args.testfile, 'utf8'));
         } catch(ex) {
             throw new Error('Unable to generate test.  Failure reading test file.  File: ' + args.testfile + ', Error: ' + ex);
         }
