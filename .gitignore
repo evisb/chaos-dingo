@@ -32,3 +32,6 @@ typings
 # Test scenario parameter files
 scenarios/*
 !scenarios/readme.md
+
+# Npm debug logs
+npm-debug.log.*
