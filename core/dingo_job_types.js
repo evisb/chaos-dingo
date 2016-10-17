@@ -1,7 +1,7 @@
 // dingo_job_types.js
 //
 // Specific information by job type to allow validation, etc.
-var armCompute = require('./arm_compute_ops');
+var armCompute = require('../resources/arm_compute_ops');
 
 exports = module.exports = {};
 

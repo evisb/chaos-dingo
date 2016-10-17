@@ -9,9 +9,9 @@ var async = require('async');
 var azureCommon = require('azure-common');
 var ComputeManagementClient = require('azure-arm-compute');
 
-var armCompute = require('./arm_compute_ops');
-var azureConstants = require('./azure_constants');
-var dingoUtils = require('./dingo_utils');
+var armCompute = require('../resources/arm_compute_ops');
+var azureConstants = require('../config/azure_constants');
+var dingoUtils = require('../core/dingo_utils');
 
 const DingoJobPipeline = class DingoJobPipeline {
     constructor(tenantId, subscriptionId, clientId, password, job) {

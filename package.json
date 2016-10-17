@@ -5,16 +5,20 @@
   "main": "dingo.js",
   "dependencies": {
     "azure-arm-compute": ">=0.18.0",
-    "async": "*",
     "azure-common": "*",
     "ms-rest": "*",
-    "ms-rest-azure": "*",
+    "ms-rest-azure": "*"
+  },
+  "devDependencies": {
     "adal-node": ">= 0.1.17",
+    "async": "*",
+    "chai": "*",
+    "mocha": "*",
     "yargs": ">= 3.31.0"
   },
   "scripts": {
     "prestart": "npm install",
-    "start": "node dingo.js -f dingo_test.json"
+    "start": "node ./core/dingo.js -f ./scenarios/dingo_test.json"
   },
   "engines": {
     "node": ">= 5.1"

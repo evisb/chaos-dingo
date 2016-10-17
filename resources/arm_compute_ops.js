@@ -3,7 +3,7 @@
 // Operations to perform on compute resources.  Only works with ARM resources.
 var ComputeManagementClient = require('azure-arm-compute');
 
-var AZURE_CONSTANTS = require('./azure_constants');
+var AZURE_CONSTANTS = require('../config/azure_constants');
 
 var exports = module.exports = {};
 

@@ -5,10 +5,10 @@
 
 var fs = require('fs');
 
-var dingoJobTypes = require('./dingo_job_types');
-var dingoUtils = require('./dingo_utils');
-var DingoJob = require('./dingo_job').DingoJob;
-var DingoJobPipeline = require('./dingo_job_pipeline').DingoJobPipeline;
+var dingoJobTypes = require('../core/dingo_job_types');
+var dingoUtils = require('../core/dingo_utils');
+var DingoJob = require('../core/dingo_job').DingoJob;
+var DingoJobPipeline = require('../core/dingo_job_pipeline').DingoJobPipeline;
 
 const DingoTest = class DingoTest {
     constructor(tenantId, subscriptionId, clientId, clientSecret, duration, delay, randomOrder) {

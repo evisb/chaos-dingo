@@ -3,8 +3,8 @@
 // Encapsulates the necessary information for each job specification.
 "use strict";
 
-var dingoJobTypes = require('./dingo_job_types');
-var dingoUtils = require('./dingo_utils');
+var dingoJobTypes = require('../core/dingo_job_types');
+var dingoUtils = require('../core/dingo_utils');
 
 const DingoJob = class DingoJob {
     constructor(type, operation, resourceGroup, resource, jobArgs) {
