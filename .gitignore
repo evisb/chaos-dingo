@@ -34,4 +34,4 @@ scenarios/*
 !scenarios/readme.md
 
 # Npm debug logs
-npm-debug.log.*
+npm-debug.*
