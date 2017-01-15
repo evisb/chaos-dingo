@@ -158,7 +158,7 @@ The same action, if you wanted to specify it in a test file, call it **dingo_tes
 
 And the commmand line would look like:
 
-        node ./dingo.js -f ./dingo_test.json
+        node ./dingo.js -f ./scenarios/dingo_test.json
 
 Now, if you wanted to perform random operations to VMSS's VMs over a period between 5 and 10 minutes, pausing for 30 to 60 seconds in between, you would modify the file as so:
 

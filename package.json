@@ -19,7 +19,8 @@
   "scripts": {
     "prestart": "npm install",
     "start": "node ./core/dingo.js -f ./scenarios/dingo_test.json",
-    "test": "./node_modules/.bin/mocha test"
+    "test": "./node_modules/.bin/mocha test",
+    "debug": "node --nolazy --debug-brk=5858 ./core/dingo.js -f ./scenarios/dingo_test.json"
   },
   "engines": {
     "node": ">= 5.1"
