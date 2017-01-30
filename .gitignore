@@ -35,3 +35,6 @@ scenarios/*
 
 # Npm debug logs
 npm-debug.*
+
+# VS Code
+.vscode
