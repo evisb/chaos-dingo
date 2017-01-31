@@ -5,7 +5,6 @@
 
 var fs = require('fs');
 
-var dingoJobTypes = require('../core/dingo_job_types');
 var dingoUtils = require('../core/dingo_utils');
 var DingoJob = require('../core/dingo_job').DingoJob;
 var DingoJobPipeline = require('../core/dingo_job_pipeline').DingoJobPipeline;
